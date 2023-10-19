@@ -1,12 +1,9 @@
 import time
 import discord
-from discord import app_commands
 from discord.ext import commands
 from discord.ui import Button, View
-from config import token, max_votes
-import flaggenerator
+from config import token
 from flaggenerator import country_gen
-from importlib import reload
 import datetime
 
 global started
